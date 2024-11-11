@@ -53,7 +53,7 @@ export default function Home() {
   <h1 className="text-4xl text-[#10375C] text-center font-extrabold pt-10">SKILLS & SERVICES</h1>
   <div className="flex flex-wrap justify-center mt-8">
     {skillData.map((IData, index) => (
-      <div key={index} className="shadow h-[200px] w-full md:w-[400px] border-2 border-orange-600 rounded-2xl m-4 p-4">
+      <div key={index} className="shadow h-[200px] w-full md:w-[600px] border-2 border-orange-600 rounded-2xl m-4 p-4">
         <p className="text-center text-[#10375C] font-medium text-2xl mt-[30px]">{IData.tittle}</p>
         <p className="text-center mt-[20px] text-lg text-[#10375C]">{IData.description}</p>
       </div>
